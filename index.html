@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Timer!</title>
+    <link id="theme_css" rel="stylesheet" type="text/css" href="dark.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Stopwatch</h1>
+        <form> <input id="stylesheet1" type="radio" name="theme" value="Dark theme" />
+            <label for="stylesheet1">Dark theme</label>
+            <input id="stylesheet2" type="radio" name="theme" value="Light theme" />
+            <label for="stylesheet2">Light theme</label>
+        </form>
+        <div class="stopwatchWrapper">
+            <div class="stopwatch"></div>
+            <nav class="controls">
+                <a href="#" class="button start" id="start">Start</a>
+                <a href="#" class="button stop" id="stop">Stop</a>
+                <a href="#" class="button reset" id="reset">Reset</a>
+                <a href="#" class="button save" id="save">Save result</a>
+                <a href="#" class="button resetList" id="resetList">Reset results</a>
+            </nav>
+        </div>
+        <ul class="results"></ul>
+    </div>
+    <script type="text/javascript" src="script-compiled.js"></script>
+</body>
+
+</html>
